@@ -1,13 +1,21 @@
 # Docket-AI-Test
 
 __author__      = "Jeferson S. Pazze"
+
 __description__ = "This code has the algorithms of data preprocessing and inference"
+
 __github__      = "jeff-pazze"
+
 __data__        = "December/2022"
+
 __credits__     = "Docket"
+
 __version__     = "1.1"
+
 __maintainer__  = "Jeferson S. Pazze"
+
 __email__       = "jeff.pazze@gmail.com"
+
 __status__      = "engineer"
 
 
@@ -40,16 +48,13 @@ Com o tempo que sobrou executei um XAI para explicar o porque que o modelo toma 
 
 <font color="red"> Executei técnicas de balanceamento dos dados, mas como estamos trabalhando em uma base pequena se utilizaremos undersample reduziriamos demais o dataset, já a tecnica de oversample e SMOTE não trouxeram melhoras nos resultados, assim como, pioraram a capacidade do modelo generalizar.
 
-\
+
 
 Link para acesso ao drive com o modelo, dataset e jupyter notebook: https://drive.google.com/drive/folders/1N6WYR7ZcW5CD8259okteQS-WxVxCCvj2?usp=share_link
 
-
 Link para acesso ao github com o modelo, dataset e jupyter notebook: https://github.com/jeff-pazze/Docket-AI-Test
 
-\
 
-\
 
 
 
@@ -69,7 +74,7 @@ sobre o mercado de ações.
 *      O modelo treinado pode ser salvo em alguma plataforma como Google Drive.Permita também ele ser acessado por qualquer um com o link.
 
 
-\
+
 ###**BRIEFING**
 ---
 
@@ -89,7 +94,6 @@ pedido através do nosso produto.
 *     Pré-analisamos documentos de forma automática.
 
 
-\
 
 ###**REQUISITOS**
 ---
@@ -109,7 +113,7 @@ de NLP, para classificação de notícias sobre o
 mercado de ações, a partir do dataset Stock
 Market News.
 
-\
+
 ###**REQUISITOS OBRIGATÓRIOS**
 ---
 
@@ -121,7 +125,7 @@ dataset como uma das seguintes labels:
 *   negativa;
 *   neutra.
 
-\
+
 ###**TECNOLOGIA**
 ---
 
@@ -132,18 +136,13 @@ USAR AS SEGUINTES TECNOLOGIAS
 *   Google Colab;
 *   Pacotes de sua preferência.
 
-\
+
 ###**PLANEJAMENTO**
 ---
 
 Nos conte como irá se planejar para executar o projeto, como por exemplo: como transformou os requisitos em tarefas, se utilizou alguma ferramenta para se organizar, se desenhou algum diagrama, o processo de criação do dataset, porque escolheu certo modelo, etc.
 Essa é uma questão livre!
 
-\
-
-\
-
-\
 
 ## Metodologia Utilizada
 ---------
@@ -158,13 +157,12 @@ O objetivo dessa metodologia é desenvolver modelos a partir da análise de info
 5.   Avaliação do Modelo
 6.   Deployment
 
-\
+
 
 1.  **Entendimento do negócio:** A primeira atividade nesta metodologia é entender de fato qual o problema a ser resolvido.
 
       <font color="red"> Caso ela não seja feita da maneira correta, todo o resto do projeto pode ser invalidado futuramente.</font>
 
-\
 
 2.   **Entendimento dos dados:** 
 
@@ -178,7 +176,7 @@ O objetivo dessa metodologia é desenvolver modelos a partir da análise de info
 
       <font color="blue"> **defina → colete → explore**</font>
 
-\
+
 
 3.   **Preparação dos dados:** Após a coleta dos dados, é necessário organizá-los de modo que seja possivel identificar o que os mesmos contam. 
 
@@ -194,7 +192,7 @@ O objetivo dessa metodologia é desenvolver modelos a partir da análise de info
 
       <font color="red"> **Se esta etapa passar para próxima fase com erros, seu modelo inteiro tem que ser refeito.**</font>
    
-\
+
 
 4.   **Modelagem dos dados:** Nesta etapa é realizada a criação do modelo.
 
@@ -204,27 +202,20 @@ O objetivo dessa metodologia é desenvolver modelos a partir da análise de info
 
       <font color="blue"> **selecione um método → separe um conjunto de dados para teste → construa o modelo → valide em todas as possibilidades**</font>
 
-\
+
 
 5.   **Avaliação do Modelo:** Com a etapa de modelagem finalizada é possivel avaliar se o se o resultado corresponde à expectativa do projeto.
 
-\
+
 
 6.   **Deployment (Implementação):** Aqui, o modelo deve ser colocado em produção, de modo a agregar valor para o negócio. 
 
-\
+
 
 **Referência:**
 
-\
+
 https://www.knowsolution.com.br/voce-sabe-o-que-e-metodologia-crisp-dm-descubra-aqui/
-
 https://blog.mbauspesalq.com/2022/04/12/crisp-dm-as-6-etapas-da-metodologia-do-futuro/
-
-
 https://www.escoladnc.com.br/blog/data-science/metodologia-crisp-dm/
-
 https://www.linkedin.com/pulse/crisp-dm-o-que-%C3%A9-e-como-usar-rodrigo-ribeiro/?originalSubdomain=pt
-
-
-
